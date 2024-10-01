@@ -5,12 +5,12 @@
   <!-- nodes -->
 
 <LOOP TIMEOUT="" IN-ARRAY="/services" OUT-ARRAY="/serviceDetails">
-  <COMMENT></COMMENT>
+  <COMMENT>Loop over services and create a string list of the services</COMMENT>
 
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>Create the string for each service</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -27,7 +27,7 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
+        <value name="node_comment">A list of services that will be exposed to the cloud</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>
@@ -48,7 +48,7 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
+        <value name="node_comment">Services string that is used for registring applications</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>

@@ -19,7 +19,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Alias for the Tenant connection</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -38,7 +38,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">URL for the cloud tenant</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -57,7 +57,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Username for the connection to the cloud</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -76,7 +76,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Password for the connection to the cloud</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -110,7 +110,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">Service that register the tenant connection, used by the startup service for the package (which in turns used the global variables) so their should not be needed to use this service unless you want to do some custom registration</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>

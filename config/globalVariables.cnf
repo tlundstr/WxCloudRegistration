@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="globalVariables" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_URL</value>
+        <value name="value">https://wmintanywhere.int-aw-au.webmethods.io/</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_UserName</value>
+        <value name="value">thomas.lundstrom@softwareag.com</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_Password</value>
+        <value name="value">gvhandle.WxCloud_Password</value>
+        <value name="isSecure">true</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_Alias</value>
+        <value name="value">WmCloud</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_AccountName</value>
+        <value name="value">T2OnPrem2</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">WxCloud_RunAsUser</value>
+        <value name="value">Administrator</value>
+        <value name="isSecure">false</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

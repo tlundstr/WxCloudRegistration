@@ -19,7 +19,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Name of the application</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -38,7 +38,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Description of the application</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
@@ -57,7 +57,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
+          <value name="node_comment">Service that will be exposed within this application</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
@@ -75,7 +75,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="node_comment"></value>
+              <value name="node_comment">Package Name</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
                 <value name="field_usereditable">true</value>
                 <value name="field_largerEditor">false</value>
@@ -94,7 +94,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="node_comment"></value>
+              <value name="node_comment">Service name and path</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
                 <value name="field_usereditable">true</value>
                 <value name="field_largerEditor">false</value>
@@ -113,7 +113,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="node_comment"></value>
+              <value name="node_comment">Name of the service in the cloud</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
                 <value name="field_usereditable">true</value>
                 <value name="field_largerEditor">false</value>
@@ -132,7 +132,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="node_comment"></value>
+              <value name="node_comment">flag that indicates batch data</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
                 <value name="field_usereditable">true</value>
                 <value name="field_largerEditor">false</value>
@@ -170,7 +170,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">Service that is registring the application, used by the registerPackage service, so there should not be any need to run this unless you do some customization.</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
