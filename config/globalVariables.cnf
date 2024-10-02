@@ -5,12 +5,12 @@
     <array name="globalVariables" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">WxCloud_URL</value>
-        <value name="value">https://wmintanywhere.int-aw-au.webmethods.io/</value>
+        <value name="value"></value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">WxCloud_UserName</value>
-        <value name="value">thomas.lundstrom@softwareag.com</value>
+        <value name="value"></value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
@@ -20,17 +20,17 @@
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">WxCloud_Alias</value>
-        <value name="value">WmCloud</value>
+        <value name="value"></value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">WxCloud_AccountName</value>
-        <value name="value">T2OnPrem2</value>
+        <value name="value"></value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">WxCloud_RunAsUser</value>
-        <value name="value">Administrator</value>
+        <value name="value"></value>
         <value name="isSecure">false</value>
       </record>
     </array>
