@@ -1,5 +1,5 @@
 # Package Name : WxCloudRegistration
-This package that performs an auto-registration to your tenant in two steps, the package will with it's startup setup the connection and then packages that will expose services to the cloud needs to call this package services. 
+This package is for a MSR (and not a EDGE runtime)  and it performs an auto-registration to your tenant in two steps, the package will with it's startup setup the connection and then packages that will expose services to the cloud needs to call this package services. 
 
 WxCloudRegistration uses the global variables and then sets up the Tenant and Account via its “startup” service. 
 
