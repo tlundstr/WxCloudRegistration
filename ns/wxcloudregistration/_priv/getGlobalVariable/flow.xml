@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT>Get the global variables</COMMENT>
 
   <!-- nodes -->
 
@@ -294,6 +295,10 @@
 </DATA>
 </MAPSET>
 </MAP>
+
+<INVOKE TIMEOUT="" SERVICE="wxcloudregistration._priv.env:getSystemVariable" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT>Check that they are all set and not null</COMMENT>
