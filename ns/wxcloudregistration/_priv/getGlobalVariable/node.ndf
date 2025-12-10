@@ -182,6 +182,8 @@
     </record>
   </record>
   <value name="node_comment">Get the Global variables that are set for this package and this variables are used by the services within this package.
+
+Will try the global variables first and then after that see if any system env has been set to override it with..
 </value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>

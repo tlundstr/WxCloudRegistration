@@ -274,7 +274,15 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">Java service that retrieves the environent variables for:
+
+WxCloud_AccountName
+WxCloud_Alias
+WxCloud_Password
+WxCloud_RunAsUser
+WxCloud_URL.value
+WxCloud_UserName
+</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
